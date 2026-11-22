@@ -1,0 +1,129 @@
+{
+  "prospect_id": "169f350e-5c23-4864-841e-2e36c0c85370",
+  "business_name": "Klinik Pratama Dewa Medika",
+  "demo_slug": "demo-klinik-pratama-dewa-medika-kv9u-6286",
+  "demo_version": "1.0.0",
+  "template_type": "healthcare",
+  "color_theme": "teal",
+  "generated_at": "2026-11-22T16:25:56.290Z",
+  "expiration_date": "2026-12-06T16:25:56.290Z",
+  "status": "AWAITING_REVIEW",
+  "qa_report": {
+    "demo_id": "demo-klinik-pratama-dewa-medika-kv9u-6286",
+    "overall_status": "PASSED",
+    "total_checks": 13,
+    "passed_checks": 13,
+    "failed_checks": 0,
+    "critical_issues": 0,
+    "high_issues": 0,
+    "medium_issues": 0,
+    "low_issues": 0,
+    "checked_at": "2026-11-22T16:25:56.290Z",
+    "checks": [
+      {
+        "id": 1,
+        "name": "Validasi Struktur HTML Standar",
+        "category": "STRUCTURE",
+        "severity": "CRITICAL",
+        "passed": true,
+        "message": "Dokumen HTML memiliki doctype, html, head, title, dan body yang valid."
+      },
+      {
+        "id": 2,
+        "name": "Pemeriksaan Kesalahan CSS & Scripting",
+        "category": "STRUCTURE",
+        "severity": "HIGH",
+        "passed": true,
+        "message": "Blok CSS dan skrip JavaScript bebas dari kesalahan sintaks fatal dan tag tidak tertutup."
+      },
+      {
+        "id": 3,
+        "name": "Pemeriksaan Navigasi Internal (Anchor Links)",
+        "category": "NAV_LINKS",
+        "severity": "MEDIUM",
+        "passed": true,
+        "message": "Semua tautan internal (8 tautan) memiliki target ID yang cocok."
+      },
+      {
+        "id": 4,
+        "name": "Deteksi Tautan Rusak & Path File Lokal Terbocorkan",
+        "category": "NAV_LINKS",
+        "severity": "HIGH",
+        "passed": true,
+        "message": "Tidak ditemukan tautan path lokal (file://) atau port localhost yang bocor ke publik."
+      },
+      {
+        "id": 5,
+        "name": "Pemeriksaan Pemuatan Gambar & Tag Alt Aksesibilitas",
+        "category": "CONTENT",
+        "severity": "LOW",
+        "passed": true,
+        "message": "Semua tag gambar (0) memiliki atribut src dan alt yang valid."
+      },
+      {
+        "id": 6,
+        "name": "Pengujian Tampilan Mobile (Viewport Responsif)",
+        "category": "RESPONSIVENESS",
+        "severity": "CRITICAL",
+        "passed": true,
+        "message": "Meta viewport mobile-responsive terpasang dengan konfigurasi width=device-width."
+      },
+      {
+        "id": 7,
+        "name": "Pengujian Tampilan Desktop (Max-Width Container)",
+        "category": "RESPONSIVENESS",
+        "severity": "MEDIUM",
+        "passed": true,
+        "message": "Container tampilan desktop dibatasi dengan aman (max-w/container) agar tidak melebar berlebih di monitor lebar."
+      },
+      {
+        "id": 8,
+        "name": "Pemeriksaan Sistem Grid & Breakpoint Responsif",
+        "category": "RESPONSIVENESS",
+        "severity": "HIGH",
+        "passed": true,
+        "message": "Sistem layout menggunakan kelas breakpoint responsif (md:, lg:, grid/flex)."
+      },
+      {
+        "id": 9,
+        "name": "Pemeriksaan Metadata SEO & Encoding Karakter",
+        "category": "SEO_METADATA",
+        "severity": "MEDIUM",
+        "passed": true,
+        "message": "Tag meta charset UTF-8 dan meta description terpasang rapi untuk optimasi mesin pencari."
+      },
+      {
+        "id": 10,
+        "name": "Pemeriksaan Banner Disclaimer Transparansi Wajib",
+        "category": "SAFETY",
+        "severity": "CRITICAL",
+        "passed": true,
+        "message": "Banner transparansi resmi konsep website Kelb's Studio terpasang dengan jelas."
+      },
+      {
+        "id": 11,
+        "name": "Verifikasi Informasi Kontak & Integrasi WhatsApp",
+        "category": "CONTENT",
+        "severity": "HIGH",
+        "passed": true,
+        "message": "Nama bisnis dan nomor kontak WhatsApp publik terpasang konsisten pada halaman."
+      },
+      {
+        "id": 12,
+        "name": "Deteksi Konten Placeholder (Lorem Ipsum / TODO)",
+        "category": "CONTENT",
+        "severity": "LOW",
+        "passed": true,
+        "message": "Tidak ditemukan teks placeholder Latin (Lorem Ipsum) atau penanda TODO yang tersisa."
+      },
+      {
+        "id": 13,
+        "name": "Pemeriksaan Script Injection & Browser Console Safety",
+        "category": "SAFETY",
+        "severity": "CRITICAL",
+        "passed": true,
+        "message": "Halaman bersih dari probe skrip mencurigakan atau script alert injection."
+      }
+    ]
+  }
+}
